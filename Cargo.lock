@@ -1253,6 +1253,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "newsapi"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "ureq",
+]
+
+[[package]]
 name = "nix"
 version = "0.24.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1309,9 +1318,7 @@ version = "0.1.0"
 dependencies = [
  "colour",
  "eframe",
- "serde",
- "serde_json",
- "ureq",
+ "newsapi",
 ]
 
 [[package]]
